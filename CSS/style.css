@@ -1,0 +1,28 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-topo{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+.container-topo-links{
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-topo-links p span{
+    color: rgb(92, 180, 209);
+}
+
+.container-topo-links .link-pousada p{
+    font-size: 20px;
+}
+
+.container-topo-links a{
+    text-decoration: none;
+}

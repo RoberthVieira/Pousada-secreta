@@ -2,8 +2,12 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+/*CONTAINER TOPO*/
 .container-topo{
-    width: 100vw;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #fff;
     position: fixed;
     top: 0;
 }
@@ -13,16 +17,22 @@ body{
     max-width: 1024px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.container-topo-links p span{
-    color: rgb(92, 180, 209);
-}
-
-.container-topo-links .link-pousada p{
-    font-size: 20px;
-}
-
-.container-topo-links a{
+.container-topo-links a {
     text-decoration: none;
+    color: #000;
+}
+
+.link-pousada a span{
+    color: rgb(19, 106, 134);
+}
+
+.link-pousada a{
+    font-size: 25px;
+}
+
+.links-menu a{
+   margin: 0 10px;
 }

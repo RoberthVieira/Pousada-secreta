@@ -47,7 +47,7 @@ body{
 }
 
 .banner{
-    width: 100vw;
+    width: 98.4vw;
     height: 100vh;
     background-image: url(../assets/img-fundo.jpg);
     background-repeat: no-repeat;
@@ -72,4 +72,136 @@ body{
 
 .main-titulo p{
     font-size: 22px;
+}
+
+
+/*SEGUNDA SESSÃO*/
+.main-subtitulo{
+    text-align: center;
+    margin: 10px auto;
+    padding: 30px 0;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.main-subtitulo h2,
+.main-subtitulo h3{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+/*SESSÃO CARD QUARTOS*/
+.container-quartos{
+    margin: 0 auto;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-quarto{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    border-bottom: 2px solid rgb(23, 138, 138);
+}
+
+.card-quarto img{
+    width: 100%;
+}
+
+.card-quarto p {
+    text-align: center;
+}
+
+.card-quarto p a {
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+/*SESSÃO ROTAS*/
+.container-iframe{
+    width: 98.4vw;
+}
+
+iframe{
+    width: 100%;
+}
+
+/*SESSÃO SOBRE*/
+.container-sobre-pousada{
+    margin: 20px auto;
+    max-width: 1224px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-sobre{
+    width: 450px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-sobre-img img{
+    width: 100px;
+    height: 110px;
+}
+
+.card-sobre-texto p{
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+/*RODAPÉ*/
+.container-rodape{
+    background-color: #49997d;
+    color: #fff;
+}
+
+.container-largura{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.container-rodape-contato{
+    flex: 1 0 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-rodape-contato h4{
+    font-size: 20px;
+}
+
+.container-rodape-contato a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-rodape-contato img{
+    width: 40px;
+    height: 40px;
+}
+
+.texto-copy{
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-top: 1px solid #3b7863;
 }
